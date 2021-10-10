@@ -49,7 +49,7 @@ while 1:
 
     cv2.imshow('Mask Detection', img)
     k = cv2.waitKey(30) & 0xff
-    if k == 5:
+    if k == 27:
         break
 
 cap.release()
